@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federico Martinez | Analista de Sistemas</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navegación lateral -->
+    <nav class="nav-dots" id="navDots">
+        <a href="#inicio" class="nav-dot active" title="Inicio" data-section="inicio"></a>
+        <a href="#sobre-mi" class="nav-dot" title="Sobre Mí" data-section="sobre-mi"></a>
+        <a href="#habilidades" class="nav-dot" title="Habilidades" data-section="habilidades"></a>
+        <a href="#experiencia" class="nav-dot" title="Experiencia" data-section="experiencia"></a>
+        <a href="#formacion" class="nav-dot" title="Formación" data-section="formacion"></a>
+        <a href="#contacto" class="nav-dot" title="Contacto" data-section="contacto"></a>
+    </nav>
+
+    <!-- Toast para copiado -->
+    <div class="copied-toast" id="toast">✅ ¡Email copiado!</div>
+
+    <!-- ========== SLIDE 1: HERO ========== -->
+    <section class="slide" id="inicio">
+        <div class="slide-content">
+            <div class="hero">
+                <span class="badge">📍 Buenos Aires, Argentina</span>
+                <div class="profile-img-large" role="img" aria-label="Federico Martinez"></div>
+                <h1>Federico<br>Martinez</h1>
+                <p class="subtitle">Analista de Sistemas en Formación</p>
+                <p class="location">
+                    <i class="fas fa-map-pin"></i> Buenos Aires, Argentina
+                </p>
+                <div class="btn-group">
+                    <a href="#contacto" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Contactame
+                    </a>
+                    <a href="#sobre-mi" class="btn btn-outline">
+                        <i class="fas fa-user"></i> Sobre Mí
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SLIDE 2: SOBRE MÍ ========== -->
+    <section class="slide" id="sobre-mi">
+        <div class="slide-content">
+            <p class="section-title">SOBRE MÍ</p>
+            <h2 class="section-heading">Apasionado por la<br><span class="gradient-text">tecnología</span></h2>
+            <div class="about-grid">
+                <div>
+                    <p class="about-text">
+                        Apasionado por la tecnología y el análisis de sistemas, me encuentro dando mis primeros pasos en este campo. Estoy aprendiendo sobre cómo se relevan necesidades, se modelan procesos y se diseñan soluciones.
+                    </p>
+                    <p class="about-text" style="margin-top:15px;">
+                        Busco una oportunidad para seguir formándome en un entorno real, aportando entusiasmo, compromiso y muchas ganas de aprender desde cero.
+                    </p>
+                </div>
+                <div style="display:grid; gap:15px;">
+                    <div class="stat-card">
+                        <div class="stat-number">2026</div>
+                        <div class="stat-label">Inicio en Análisis de Sistemas</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Proyecto Web Realizado</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SLIDE 3: HABILIDADES ========== -->
+    <section class="slide" id="habilidades">
+        <div class="slide-content">
+            <p class="section-title">HABILIDADES</p>
+            <h2 class="section-heading">Tecnologías &<br><span class="gradient-text">Conocimientos</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 45%;"></div>
+                    </div>
+                    <p style="color:#a1a1aa; margin-top:8px; font-size:14px;">45% - Nivel Básico/Intermedio</p>
+                    <div class="skill-tags">
+                        <span class="tag">Fundamentos</span>
+                        <span class="tag">Estructuras de datos</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML / CSS</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 20%;"></div>
+                    </div>
+                    <p style="color:#a1a1aa; margin-top:8px; font-size:14px;">20% - Iniciando</p>
+                    <div class="skill-tags">
+                        <span class="tag">Diseño Web</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📜</div>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 21%;"></div>
+                    </div>
+                    <p style="color:#a1a1aa; margin-top:8px; font-size:14px;">21% - Principiante</p>
+                    <div class="skill-tags">
+                        <span class="tag">Básico</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>SQL</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 10%;"></div>
+                    </div>
+                    <p style="color:#a1a1aa; margin-top:8px; font-size:14px;">10% - Introducción</p>
+                    <div class="skill-tags">
+                        <span class="tag">Consultas básicas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SLIDE 4: EXPERIENCIA / PROYECTOS ========== -->
+    <section class="slide" id="experiencia">
+        <div class="slide-content">
+            <p class="section-title">PROYECTOS</p>
+            <h2 class="section-heading">Lo que estoy<br><span class="gradient-text">construyendo</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>CV Web Personal</h3>
+                        <p class="institution">Proyecto Autodidacta</p>
+                        <p class="date">2026</p>
+                        <p>Diseño y desarrollo de currículum vitae online interactivo. Aplicación de HTML5, CSS3 moderno y diseño responsive. Primer acercamiento al desarrollo web front-end con glassmorphism y animaciones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SLIDE 5: FORMACIÓN ========== -->
+    <section class="slide" id="formacion">
+        <div class="slide-content">
+            <p class="section-title">FORMACIÓN</p>
+            <h2 class="section-heading">Educación &<br><span class="gradient-text">Estudios</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Tecnicatura Superior en Análisis de Sistemas</h3>
+                        <p class="institution">ISFDyT Nº 134 - Buenos Aires</p>
+                        <p class="date">2026 - En curso</p>
+                        <p>Carrera terciaria orientada al análisis, diseño e implementación de sistemas informáticos. Formación en relevamiento de requerimientos, modelado de procesos y desarrollo de software.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Educación Secundaria Completa</h3>
+                        <p class="institution">Escuela de Educación Secundaria Nº3 Abraham Lincoln</p>
+                        <p class="date">2018 - 2024</p>
+                        <p>Formación secundaria con orientación general. Desarrollo de habilidades de estudio, trabajo en equipo y responsabilidad.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 40px; position: relative; z-index: 1;">
+                <p class="section-title">IDIOMAS</p>
+                <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 15px;">
+                    <div class="skill-card" style="flex: 1; min-width: 200px;">
+                        <div class="skill-icon">🇪🇸</div>
+                        <h3>Español</h3>
+                        <p style="color: #a78bfa;">Nativo</p>
+                        <div class="progress-bar" style="margin-top: 10px;">
+                            <div class="progress-fill" style="width: 100%; background: linear-gradient(135deg, #22c55e, #06b6d4);"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" style="flex: 1; min-width: 200px;">
+                        <div class="skill-icon">🇺🇸</div>
+                        <h3>Inglés</h3>
+                        <p style="color: #a78bfa;">B2 - Intermedio Avanzado</p>
+                        <div class="progress-bar" style="margin-top: 10px;">
+                            <div class="progress-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SLIDE 6: CONTACTO ========== -->
+    <section class="slide" id="contacto">
+        <div class="slide-content">
+            <p class="section-title">CONTACTO</p>
+            <h2 class="section-heading">Hablemos de<br><span class="gradient-text">tecnología</span></h2>
+            <div class="contact-grid">
+                <a href="#" class="contact-card" id="emailCard">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>luduenafederico00@gmail.com</p>
+                    <small style="color:#a78bfa;">Click para copiar</small>
+                </a>
+                <a href="https://www.linkedin.com/in/federico-martinez-b64656417/" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>federico-martinez</p>
+                    <small style="color:#a78bfa;">Click para abrir</small>
+                </a>
+                <a href="https://github.com/Fredesi" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>Fredesi</p>
+                    <small style="color:#a78bfa;">Click para abrir</small>
+                </a>
+            </div>
+            <div style="text-align: center; margin-top: 30px; position: relative; z-index: 1;">
+                <p style="color: var(--text-gray);">
+                    <i class="fas fa-phone"></i> +54 9 2355-520656
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Federico Martinez — Todos los derechos reservados</p>
+        <p style="margin-top: 5px; font-size: 12px;">
+            Construido con <i class="fas fa-heart" style="color: #ec4899;"></i> y muchas ganas de aprender
+        </p>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
